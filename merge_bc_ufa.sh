@@ -28,7 +28,7 @@ echo "RAWX deleted. (1/6)"
 fdelcol "$obsid"/PROC/ni"$obsid"_uf_bc.evt+1 RAWY N Y
 echo "RAWY deleted. (2/6)"
 fdelcol "$obsid"/PROC/ni"$obsid"_uf_bc.evt+1 PHA N Y
-echo "PHA deleted. (3/6)"
+echo "PHA_FAST deleted. (3/6)"
 fdelcol "$obsid"/PROC/ni"$obsid"_uf_bc.evt+1 PHA_FAST N Y
 echo "PHA_FAST deleted. (4/6)"
 fdelcol "$obsid"/PROC/ni"$obsid"_uf_bc.evt+1 EVENT_FLAGS N Y
