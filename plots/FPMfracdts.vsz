@@ -1,0 +1,236 @@
+# Veusz saved document (version 3.6.2)
+# Saved at 2023-05-08T11:25:37.410747
+
+SetCompatLevel(1)
+AddImportPath('/Users/do19150/Gits/DT_NICER/plots')
+ImportFileCSV('../summaries/xti3133010102_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm1', 'LC FRAC DT': 'lcdt1'})
+ImportFileCSV('../summaries/xti3133010105_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm2', 'LC FRAC DT': 'lcdt2'})
+ImportFileCSV('../summaries/xti3558010201_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm3', 'LC FRAC DT': 'lcdt3'})
+ImportFileCSV('../summaries/xti4133010103_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm4', 'LC FRAC DT': 'lcdt4'})
+ImportFileCSV('../summaries/xti4133010104_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm5', 'LC FRAC DT': 'lcdt5'})
+ImportFileCSV('../summaries/xti4133010127_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm6', 'LC FRAC DT': 'lcdt6'})
+ImportFileCSV('../summaries/xti4133010144_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm7', 'LC FRAC DT': 'lcdt7'})
+ImportFileCSV('../summaries/xti4133010151_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm8', 'LC FRAC DT': 'lcdt8'})
+ImportFileCSV('../summaries/xti4133010262_dtsummary.csv', headermode='1st', linked=True, numericlocale='en_GB', renames={'FPM NO': 'fpm9', 'LC FRAC DT': 'lcdt9'})
+ImportString('avgs(numeric)','''
+4.692595e-04
+4.852489e-04
+9.791639e-04
+1.666385e-03
+1.992076e-03
+3.264887e-03
+3.589287e-03
+3.335390e-03
+3.571275e-04
+''')
+ImportString('errs(numeric)','''
+6.652002e-05
+6.634141e-05
+1.702380e-04
+6.742084e-05
+7.877971e-05
+4.733795e-04
+1.455915e-04
+1.279771e-04
+5.801789e-05
+''')
+ImportString('maxs(numeric)','''
+6.595268e-04
+6.662160e-04
+1.601536e-03
+1.798016e-03
+2.142117e-03
+3.659502e-03
+3.924706e-03
+3.567401e-03
+5.630721e-04
+''')
+ImportString('mins(numeric)','''
+2.356573e-04
+2.479286e-04
+6.723696e-04
+1.481826e-03
+1.772897e-03
+2.938843e-03
+3.185160e-03
+2.970455e-03
+2.678313e-04
+''')
+ImportString('rates(numeric)','''
+3.120000e+01
+5.220000e+01
+7.490000e+02
+3.202000e+03
+3.935000e+03
+6.780000e+03
+7.024000e+03
+6.933000e+03
+7.380000e+01
+''')
+Set('width', '25cm')
+Set('colorTheme', 'default-latest')
+Set('StyleSheet/axis-function/autoRange', 'next-tick')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('grid', name='grid1', autoadd=False)
+To('grid1')
+Set('rows', 1)
+Set('leftMargin', '0.2cm')
+Set('bottomMargin', '0.2cm')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'FPM Number')
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('label', 'Proportional Deadtime')
+Set('min', 0.0001)
+Set('max', 0.0045)
+Set('direction', 'vertical')
+Set('MajorTicks/number', 5)
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('color', 'theme1')
+Set('xData', 'fpm1')
+Set('yData', 'lcdt1')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'diamond')
+Set('color', 'theme10')
+Set('xData', 'fpm2')
+Set('yData', 'lcdt2')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'square')
+Set('color', 'theme14')
+Set('xData', 'fpm3')
+Set('yData', 'lcdt3')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy4', autoadd=False)
+To('xy4')
+Set('marker', 'cross')
+Set('color', 'theme3')
+Set('xData', 'fpm4')
+Set('yData', 'lcdt4')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy5', autoadd=False)
+To('xy5')
+Set('marker', 'plus')
+Set('color', 'cyan')
+Set('xData', 'fpm5')
+Set('yData', 'lcdt5')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy6', autoadd=False)
+To('xy6')
+Set('marker', 'star')
+Set('color', 'blue')
+Set('xData', 'fpm6')
+Set('yData', 'lcdt6')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy7', autoadd=False)
+To('xy7')
+Set('marker', 'pentagon')
+Set('color', 'theme4')
+Set('xData', 'fpm7')
+Set('yData', 'lcdt7')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy8', autoadd=False)
+To('xy8')
+Set('marker', 'triangleleft')
+Set('color', 'grey')
+Set('xData', 'fpm8')
+Set('yData', 'lcdt8')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy9', autoadd=False)
+To('xy9')
+Set('marker', 'circlehole')
+Set('color', 'black')
+Set('xData', 'fpm9')
+Set('yData', 'lcdt9')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('label', name='label1', autoadd=False)
+To('label1')
+Set('label', 'a)')
+Set('xPos', [0.03])
+Set('yPos', [0.94])
+To('..')
+To('..')
+Add('graph', name='graph2', autoadd=False)
+To('graph2')
+Add('axis', name='x', autoadd=False)
+To('x')
+Set('label', 'Average Count Rate (/s)')
+Set('min', 20.0)
+Set('max', 8000.0)
+Set('log', True)
+To('..')
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('log', True)
+Set('direction', 'vertical')
+To('..')
+Add('xy', name='xy1', autoadd=False)
+To('xy1')
+Set('marker', 'triangle')
+Set('xData', 'rates')
+Set('yData', 'mins')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy2', autoadd=False)
+To('xy2')
+Set('marker', 'triangledown')
+Set('xData', 'rates')
+Set('yData', 'maxs')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('xy', name='xy3', autoadd=False)
+To('xy3')
+Set('marker', 'diamond')
+Set('xData', 'rates')
+Set('yData', 'avgs,errs')
+Set('PlotLine/hide', True)
+Set('MarkerLine/hide', True)
+To('..')
+Add('label', name='label1', autoadd=False)
+To('label1')
+Set('label', 'b)')
+Set('xPos', [0.03])
+Set('yPos', [0.94])
+To('..')
+Add('fit', name='fit1', autoadd=False)
+To('fit1')
+Set('values', {'a': 0.00039940590104634, 'b': 4.2036256505964e-07})
+Set('xData', 'rates')
+Set('yData', 'avgs,errs')
+Set('Line/color', 'foreground')
+Set('Line/width', '1pt')
+Set('Line/style', 'dash1')
+To('..')
+To('..')
+To('..')
+To('..')
